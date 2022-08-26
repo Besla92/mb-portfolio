@@ -1,0 +1,43 @@
+.home  {
+    width: 100vw;
+    height: 100vh;
+    background-image: url("../public/img/home.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0;
+    padding: 0;
+  }
+  .home-background  {
+    background: rgba(0, 0, 0, 0.8);
+    width: 100vw;
+    height: 100vh;
+  }
+  .col-sm-12 {
+    height: 50vh;
+    text-align: center;
+    margin: 0;
+    position: absolute;
+    top: 33.3%;
+  }
+  .home-title-container {
+    font-size: 20px;
+    color: white;
+    opacity: 1;
+  }
+  .home-title {
+    font-style: normal;
+  }
+  .hello .name {
+    text-transform: uppercase;
+  }
+  .developer  {
+    font-style: italic;
+  }
+  .home-title > h1  {
+    font-size: 15vh;
+    font-weight: bold;
+  }
+  .navbar   {
+      background: rgba(0, 0, 0, 0.8);
+      float: right;
+  }
