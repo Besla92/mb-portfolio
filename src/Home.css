@@ -15,9 +15,7 @@
   .col-sm-12 {
     height: 50vh;
     text-align: center;
-    margin: 0;
-    position: absolute;
-    top: 33.3%;
+    padding-top: 15%;
   }
   .home-title-container {
     font-size: 20px;
@@ -38,6 +36,32 @@
     font-weight: bold;
   }
   .navbar   {
-      background: rgba(0, 0, 0, 0.8);
-      float: right;
+      position: absolute;
+  }
+  .menu-container  {
+    width: 100vw;
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.8) !important;
+  }
+  #navbarToggleExternalContent  {
+    background: rgba(0, 0, 0, 0.8) !important;
+  }
+  .menu-text-container  {
+    padding-top: 10%;
+    text-align: center;
+  }
+  .vertical-menu a {
+    background-color: rgba(0, 0, 0, 0.8);
+    color: white;
+    display: block;
+    padding: 12px;
+    text-decoration: none;
+    font-size: 2em;
+    text-transform: uppercase;
+  }
+  .vertical-menu a:hover {
+    color: #00FFFF;
+  }
+  .vertical-menu a.active {
+    color: #00FFFF;
   }
