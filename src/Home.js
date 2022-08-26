@@ -3,8 +3,7 @@ import './Home.css';
 
 const Home = () => {
   return (
-    <div className="container-fluid home">
-        
+    <div className="container-fluid home" id="home">
         <div className="home-background">
             <div className="row">
                 <div className="col-sm-12">
@@ -18,7 +17,9 @@ const Home = () => {
                         <span className="home-title developer">
                             <h2>Full Stack Web & App Developer</h2>
                         </span>
-                        
+                        <span>
+                            
+                        </span>
                     </div>    
                 </div>
             </div>
